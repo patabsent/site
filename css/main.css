@@ -269,8 +269,23 @@ body {
 }
 article p {
    font-size: 20px;
-    width: 90vw;
-    max-width: 797px;
-    margin: 0 auto 20px;
+   width: 90vw;
+   max-width: 800x;
+   margin: 0 auto 20px;
+}
+ul {
+   max-width: 800x;
+   margin: 0 auto 20px;
+}
+ul li {
+   list-style-type: none;
+   display: inline-block;
+   float: left;
+   margin-right: 20px;
+}
+ul li a {
+   color: white;
+   font-weight: bold;
+   text-transform: uppercase;
 }
    
