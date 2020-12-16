@@ -287,5 +287,6 @@ ul li a {
    color: white;
    font-weight: bold;
    text-transform: uppercase;
+   text-decoration: none;
 }
    
