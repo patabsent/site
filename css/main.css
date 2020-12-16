@@ -274,19 +274,26 @@ article p {
    margin: 0 auto 20px;
 }
 ul {
-   max-width: 800x;
+   display: inline-block;
    margin: 0 auto 20px;
 }
 ul li {
    list-style-type: none;
    display: inline-block;
    float: left;
-   margin-right: 20px;
+   margin: 0 10px;
 }
 ul li a {
-   color: white;
+   font-size: 30px;
+   color: White;
    font-weight: bold;
    text-transform: uppercase;
    text-decoration: none;
+   display: inline-block;
+   padding: 4px 8px;
 }
-   
+ul li a:hover {
+   color: DeepPink;
+   background-color: Black;
+   text-shadow: 0 0 5px DeepPink;
+}
