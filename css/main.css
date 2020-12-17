@@ -274,6 +274,13 @@ article p {
    max-width: 800x;
    margin: 0 auto 20px;
 }
+article p a {
+   color: DeepPink;
+   text-decoration: none;
+}
+article p a:hover {
+   text-decoration: underline;
+}
 ul {
    display: inline-block;
    margin: 0 auto 20px;
