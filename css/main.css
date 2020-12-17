@@ -284,6 +284,7 @@ article p a:hover {
 ul {
    display: inline-block;
    margin: 0 auto 20px;
+   padding: 0;
 }
 ul li {
    list-style-type: none;
