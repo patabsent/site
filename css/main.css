@@ -291,12 +291,12 @@ ul li a {
    text-transform: uppercase;
    text-decoration: none;
    display: inline-block;
-   padding: 2px 15px;
-   border-radius: 100%;
-   transition: text-shadow 0.5s;
+   padding: 4px 12px;
+   border-radius: 8px;
+   transition: text-shadow 0.5s, background-color 0.5s, color 0.1s;
 }
 ul li a:hover {
    color: DeepPink;
    background-color: Black;
-   text-shadow: 0 0 5px DeepPink;
+   text-shadow: 0 0 8px rgba(255,20,147,0.8);
 }
