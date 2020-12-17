@@ -317,7 +317,7 @@ ul li a {
    text-transform: uppercase;
    text-decoration: none;
    display: inline-block;
-   padding: 6px 12px;
+   padding: 8px 12px;
    border-radius: 8px;
    transition: text-shadow 0.5s, background-color 0.5s, color 0.1s;
    line-height: 1;
@@ -327,4 +327,9 @@ ul li a:hover {
    color: DeepPink;
    background-color: Black;
    text-shadow: 0 0 8px rgba(255,20,147,0.8);
+}
+
+hr {
+   max-width: 400px;
+   color: rgba (255,255,255,0.2);
 }
