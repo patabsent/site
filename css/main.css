@@ -268,11 +268,17 @@ body {
    text-align: center;
    font-family: sans-serif;
 }
-nav  {
+
+h1 {
+   margin: 120px 0 80px;
+}
+
+nav {
    position: fixed;
-   background-color: #222;
-   padding: 12px 0;
+   background-color: rgba(0,0,0,0.8);
+   padding: 12px 0 8px;
    top: 0;
+   width:100%;
 }
 
 article p {
@@ -281,24 +287,29 @@ article p {
    max-width: 800x;
    margin: 0 auto 20px;
 }
+
 article p a {
    color: DeepPink;
    text-decoration: none;
 }
+
 article p a:hover {
    text-decoration: underline;
 }
+
 ul {
    display: inline-block;
    margin: 0 auto;
    padding: 0;
 }
+
 ul li {
    list-style-type: none;
    display: inline-block;
    float: left;
    margin: 0 10px;
 }
+
 ul li a {
    font-size: 20px;
    color: White;
@@ -310,6 +321,7 @@ ul li a {
    border-radius: 8px;
    transition: text-shadow 0.5s, background-color 0.5s, color 0.1s;
 }
+
 ul li a:hover {
    color: DeepPink;
    background-color: Black;
