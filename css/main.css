@@ -331,6 +331,8 @@ ul li a:hover {
 
 hr {
    max-width: 400px;
-   color: rgba (255,255,255,0.1);
-   margin: 20px auto;
+   margin: 40px auto;
+   border: none;
+   height: 1px;
+   background-color: rgba (255,255,255,0.2);
 }
