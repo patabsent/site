@@ -270,7 +270,13 @@ body {
 }
 
 h1 {
-   margin: 120px 0 80px;
+   margin: 120px 0 40px;
+   font-size: 140px;
+   /* maybe I won't do this after all
+   background-clip: text;
+   -webkit-background-clip: text;
+   color: transparent;
+   background-image: url("../coverart-sq.png");*/
 }
 
 nav {
@@ -328,16 +334,11 @@ ul li a:hover {
    background-color: Black;
    text-shadow: 0 0 8px rgba(255,20,147,0.8);
 }
-h1 {
-   font-size: 140px;
-   /* maybe I won't do this after all
-   background-clip: text;
-   -webkit-background-clip: text;
-   color: transparent;
-   background-image: url("../coverart-sq.png");*/
-}
+
 h2 {
    font-style: italic;
+   font-weight: normal;
+   margin-top:40px;
 }
 hr {
    opacity: 0;
