@@ -328,3 +328,11 @@ ul li a:hover {
    background-color: Black;
    text-shadow: 0 0 8px rgba(255,20,147,0.8);
 }
+h1 {
+   -font-size: 140px;
+   -webkit-text-fill-color: transparent;
+   -webkit-background-clip: text;
+   background: url("../coverart_sq.png");
+   color: DeepPink;
+}
+
