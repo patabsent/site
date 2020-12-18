@@ -330,9 +330,10 @@ ul li a:hover {
 }
 h1 {
    font-size: 140px;
+   /* maybe I won't do this after all
    background-clip: text;
    -webkit-background-clip: text;
    color: transparent;
-   background-image: url("../coverart-sq.png");
+   background-image: url("../coverart-sq.png");*/
 }
 
