@@ -264,6 +264,9 @@ textarea {
 body {
    background-color: #222;
    background-image:linear-gradient(#444 0%, #222 100%);
+   background-image: url('../media/lomoberlin400contax64526.jpg');
+   background-size: cover;
+   background-repeat: none;
    color: rgba(255, 255, 255, 0.8); 
    text-align: center;
    font-family: sans-serif;
