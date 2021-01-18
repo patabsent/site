@@ -294,6 +294,7 @@ nav {
 
 nav ul li a {
    color: White;
+   text-shadow: none;
 }
 
 article {
@@ -339,7 +340,6 @@ ul li a {
    border-radius: 8px;
    transition: text-shadow 0.5s, background-color 0.5s, color 0.1s;
    line-height: 1;
-   text-shadow: none;
    color: black;
 }
 
