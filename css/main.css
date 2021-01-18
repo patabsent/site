@@ -278,7 +278,7 @@ h1 {
    margin: 120px 0 40px;
    font-size: 180px;
    color: rgba(255,255,255,0);
-   white 0 0 20px, white 0 0 8px, white 0 0 40px
+   white 0 0 20px, white 0 0 8px, white 0 0 40px;
    /* maybe I won't do this after all
    background-clip: text;
    -webkit-background-clip: text;
